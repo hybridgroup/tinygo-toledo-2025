@@ -1,8 +1,8 @@
-# Gophercon 2024
+# Gophercon AU 2024
 
-The is the repository for the hardware hack session at Gophercon 2024.
+The is the repository for the hardware hack session at Gophercon AU 2024.
 
-https://gophercon.com/
+https://gophercon.com.au/
 
 ### If you received a GopherBadger2040, it is yours to keep. Please return all other equipment when you are finished for the next person. Thank you!
 
@@ -26,19 +26,9 @@ Go to https://github.com/hybridgroup/badger2040 for more info.
 
 We have Parrot Minidrones you can fly with Go code to control them using their built-in Bluetooth API.
 
-Post in-flight videos using hashtag #gophercon
+Post in-flight videos using hashtag #gopherconau
 
 Ready for takeoff? Go to [./drone/minidrone/](./drone/minidrone/).
-
-### Powerup Miniblimps
-
-![Powerup](images/powerup-balloon.jpg)
-
-We have miniature blimps using modified Powerup programmable paper airplanes that you can fly with Go code to control them using their built-in Bluetooth API.
-
-Post in-flight videos using hashtag #gophercon
-
-Ready for takeoff? Go to [./drone/powerup/](./drone/powerup/).
 
 ### WowWee MiP robots
 
@@ -46,7 +36,7 @@ Ready for takeoff? Go to [./drone/powerup/](./drone/powerup/).
 
 Along for the ride, we brought a couple of WowWee MiP two-wheeled self-balancing robots that you control using Bluetooth.
 
-Post robot videos using hashtag #gophercon
+Post robot videos using hashtag #gopherconau
 
 Ready to roll? Go to https://github.com/hybridgroup/tinygo-mip.
 
@@ -58,9 +48,9 @@ We also brought our WowWee CHiP the robot dog that you control using Bluetooth.
 
 This is a challenge activity: help us complete the implementation for the complete API.
 
-Post robot videos using hashtag #gophercon
+Post robot videos using hashtag #gopherconau
 
-Ready to ddo some new tricks? Go to https://github.com/hybridgroup/tinygo-chip.
+Ready to do some new tricks? Go to https://github.com/hybridgroup/tinygo-chip.
 
 > :info: take a look at the [./tools](./tools) directory for instructions on how to do bluetooth discovery
 
@@ -96,22 +86,6 @@ There are some Grove sensor kits that you can use for the activity.
 
 Ready to try this out? Go to [./sensor/arduino/](./sensor/arduino/) to get started.
 
-### TinyGo Music Jam
-
-![Controller mk2](./images/music-mk2.jpg)
-
-Make your own electronic musical instruments using TinyGo and the Raspberry Pi Nano boards.
-
-Thanks to the USB-MIDI support, you can turn your board into a tiny digital musical instrument controller.
-
-Add buttons, sliders, a joystick, and when we say become part of the music we mean it!
-
-Let's make beautiful music together, just go to [./musicjam/](./musicjam/).
-
-## Bounties
-
-We have some additional bounties and prizes, [you can see more information here](./BOUNTIES.md).
-
 ## License
 
-Copyright (c) 2015-2023 The Hybrid Group and friends. Licensed under the MIT license.
+Copyright (c) 2015-2024 The Hybrid Group and friends. Licensed under the MIT license.
