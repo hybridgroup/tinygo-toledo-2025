@@ -1,10 +1,12 @@
-# Gophercon AU 2024
+# Gophercon AU 2024 Hardware Hack Session
+
+![Gophercon AU](./images/gophercon-au-2024.png)
 
 The is the repository for the hardware hack session at Gophercon AU 2024.
 
 https://gophercon.com.au/
 
-### If you received a GopherBadger2040, it is yours to keep. Please return all other equipment when you are finished for the next person. Thank you!
+### If you received a Badger2040, it is yours to keep. Please return all other equipment when you are finished for the next person. Thank you!
 
 ## Installation
 
@@ -16,7 +18,9 @@ Please read our [installation instructions here](./INSTALL.md).
 
 ![Badger2040-W](./images/badger2040-w.webp)
 
-If you are one of the very fortunate individuals to have received a Badger2040 badge tha tis programmable using TinyGo, it is in fact yours to keep!
+If you are one of the very fortunate individuals to have received a Badger2040 badge that is programmable using TinyGo, it is in fact yours to keep!
+
+There are several different activities for you to use the Badger2040 to learn about programming devices.
 
 Go to https://github.com/hybridgroup/badger2040 for more info.
 

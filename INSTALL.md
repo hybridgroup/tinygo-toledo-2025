@@ -9,9 +9,9 @@ git clone https://github.com/hybridgroup/gophercon-2024.git
 cd gophercon-2024
 ```
 
-## Install Go 1.22
+## Install Go 1.23
 
-If somehow you have not installed Go 1.22 on your computer already, you can download it here:
+If somehow you have not installed Go 1.23 on your computer already, you can download it here:
 
 https://go.dev/dl/
 
@@ -19,6 +19,6 @@ Now you are ready to install TinyGo.
 
 ## Install TinyGo
 
-You will need to install TinyGo 0.31.2 in order to do today's activities.
+You will need to install TinyGo 0.34.0 in order to do today's activities.
 
 https://tinygo.org/getting-started/install/
