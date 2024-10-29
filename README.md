@@ -58,16 +58,6 @@ Ready to do some new tricks? Go to https://github.com/hybridgroup/tinygo-chip.
 
 > :info: take a look at the [./tools](./tools) directory for instructions on how to do bluetooth discovery
 
-### Sphero Ollie robots
-
-![Sphero Ollie](./images/ollie.jpg)
-
-Turns out we had a few unopened Sphero Ollie robots that we found just in time for Gophercon! These fast Bluetooth controlled robotic toys have long been a Go programmer fan favorite.
-
-There are a few of these cylindrical robots to help satisfy your need for speed.
-
-Want to take one for a spin? Go to [./robot/sphero/](./robot/sphero/).
-
 ### TinyGo Open LED Race
 
 ![TinyGo OpenLEDRace](./images/ledrace-input2.gif)
