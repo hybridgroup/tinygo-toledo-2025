@@ -102,31 +102,33 @@ func connectAddress() string {
 
 func flightPlan(done chan bool) {
 	drone.Hover()
-	time.Sleep(time.Second * 5)
+	time.Sleep(time.Second * 10)
 
 	drone.Forward(20)
-	time.Sleep(time.Second * 1)
+	time.Sleep(time.Second * 2)
 
 	drone.Hover()
-	time.Sleep(time.Second * 5)
+	time.Sleep(time.Second * 10)
 
 	drone.Backward(20)
-	time.Sleep(time.Second * 1)
+	time.Sleep(time.Second * 2)
 
 	drone.Hover()
-	time.Sleep(time.Second * 5)
+	time.Sleep(time.Second * 10)
 
 	drone.Left(20)
-	time.Sleep(time.Second * 1)
+	time.Sleep(time.Second * 2)
 
 	drone.Hover()
-	time.Sleep(time.Second * 5)
+	time.Sleep(time.Second * 10)
 
 	drone.Right(20)
-	time.Sleep(time.Second * 1)
+	time.Sleep(time.Second * 2)
 
 	drone.Hover()
-	time.Sleep(time.Second * 5)
+	time.Sleep(time.Second * 15)
+
+	drone.Land()
 
 	done <- true
 }

@@ -9,7 +9,7 @@ You can use [TinyGo Bluetooth](https://tinygo.org/bluetooth) to control the dron
 ## What you need
 
     - Parrot Minidrone
-    - Personal computer with Go 1.20+ installed
+    - Personal computer with Go 1.22+ installed
     - Works on Linux, macOS, or Windows
 
 Do you have a Badger20400-W? You can also use it to control your drone using the Flightbadge firmware! Look in the tutorials directory in the repo for your specific badge.
@@ -54,7 +54,7 @@ go run ./blescanner
 
 Let's start with a simple takeoff, and then land. Make sure the drone is turned on and you know the correct MAC address or name, then run the code.
 
-```go run ./step1/main.go [MAC address or Bluetooth ID]```
+```go run ./step1 [MAC address or Bluetooth ID]```
 
 <hr>
 
@@ -62,7 +62,7 @@ Let's start with a simple takeoff, and then land. Make sure the drone is turned 
 
 The drone will hover and return some flight data info. Run this code:
 
-```go run ./step2/main.go [MAC address or Bluetooth ID]```
+```go run ./step2 [MAC address or Bluetooth ID]```
 
 <hr>
 
@@ -70,19 +70,27 @@ The drone will hover and return some flight data info. Run this code:
 
 The drone can move forward, backward, to the right, and the left, all while maintaining a steady altitude. Run the code. 
 
-```go run ./step3/main.go [MAC address or Bluetooth ID]```
+```go run ./step3 [MAC address or Bluetooth ID]```
 
 <hr>
 
 ### step04/main.go
 
-The drone can perform flips while flying. Run the code.
+The drone can also move up and down, and can rotate left and right. Run the code. 
 
-```go run ./step4/main.go [MAC address or Bluetooth ID]```
+```go run ./step4 [MAC address or Bluetooth ID]```
 
 <hr>
 
 ### step05/main.go
+
+The drone can perform flips while flying. Run the code.
+
+```go run ./step5 [MAC address or Bluetooth ID]```
+
+<hr>
+
+### step06/main.go
 
 Now it is time for free flight, controlled by you, the human pilot. Plug in the DS3 controller to your computer. The controls are as follows:
 
@@ -96,15 +104,15 @@ IMPORTANT NOTE: you must press the "P3" button when your program first runs for 
 
 **macOS**
 
-`go run ./step5/main.go [Bluetooth ID]`
+`go run ./step6 [Bluetooth ID]`
 
 **Linux**
 
-`go run step5/main.go [MAC address]`
+`go run step6 [MAC address]`
 
 **Windows**:
 
-`go run ./step5/main.go [MAC address]`
+`go run ./step6 [MAC address]`
 
 <hr>
 

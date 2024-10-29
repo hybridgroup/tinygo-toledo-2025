@@ -51,25 +51,15 @@ func main() {
 		println(err)
 	}
 
-	time.Sleep(3 * time.Second)
+	startJoystick()
 
-	err = drone.TakeOff()
-	if err != nil {
-		println(err)
-	}
+	defer func() {
+		drone.Land()
+		time.Sleep(time.Second * 3)
+		drone.Halt()
+	}()
 
-	done := make(chan bool)
-	go flightPlan(done)
-
-	select {
-	case <-done:
-	case <-time.After(30 * time.Second):
-	}
-
-	drone.Land()
-	time.Sleep(time.Second * 3)
-
-	drone.Halt()
+	select {}
 }
 
 func scanHandler(a *bluetooth.Adapter, d bluetooth.ScanResult) {
@@ -98,37 +88,4 @@ func connectAddress() string {
 	address := os.Args[1]
 
 	return address
-}
-
-func flightPlan(done chan bool) {
-	drone.Hover()
-	time.Sleep(time.Second * 10)
-
-	drone.Up(20)
-	time.Sleep(time.Second * 3)
-
-	drone.Hover()
-	time.Sleep(time.Second * 10)
-
-	drone.Down(20)
-	time.Sleep(time.Second * 3)
-
-	drone.Hover()
-	time.Sleep(time.Second * 10)
-
-	drone.Clockwise(40)
-	time.Sleep(time.Second * 3)
-
-	drone.Hover()
-	time.Sleep(time.Second * 5)
-
-	drone.CounterClockwise(40)
-	time.Sleep(time.Second * 3)
-
-	drone.Hover()
-	time.Sleep(time.Second * 10)
-
-	drone.Land()
-
-	done <- true
 }

@@ -20,7 +20,11 @@ var (
 	leftX, leftY, rightX, rightY atomic.Value
 )
 
-const offset = 32767.0
+const (
+	offset = 32767.0
+	min    = -20000
+	max    = 20000
+)
 
 func startJoystick() {
 	joystickAdaptor = joystick.NewAdaptor("0")
@@ -35,6 +39,12 @@ func startJoystick() {
 	rightY.Store(float64(0.0))
 
 	stick.On(joystick.TrianglePress, func(data interface{}) {
+		// clear any spurious values on takeoff
+		leftX.Store(float64(0.0))
+		leftY.Store(float64(0.0))
+		rightX.Store(float64(0.0))
+		rightY.Store(float64(0.0))
+
 		drone.TakeOff()
 	})
 
@@ -71,18 +81,18 @@ func handleRightJoystick() {
 		rightStick := getRightStick()
 
 		switch {
-		case rightStick.y < -10:
+		case rightStick.y < min:
 			drone.Forward(ValidatePitch(rightStick.y, offset))
-		case rightStick.y > 10:
+		case rightStick.y > max:
 			drone.Backward(ValidatePitch(rightStick.y, offset))
 		default:
 			drone.Forward(0)
 		}
 
 		switch {
-		case rightStick.x > 10:
+		case rightStick.x > max:
 			drone.Right(ValidatePitch(rightStick.x, offset))
-		case rightStick.x < -10:
+		case rightStick.x < min:
 			drone.Left(ValidatePitch(rightStick.x, offset))
 		default:
 			drone.Right(0)
@@ -97,18 +107,18 @@ func handleLeftJoystick() {
 		leftStick := getLeftStick()
 
 		switch {
-		case leftStick.y < -10:
+		case leftStick.y < min:
 			drone.Up(ValidatePitch(leftStick.y, offset))
-		case leftStick.y > 10:
+		case leftStick.y > max:
 			drone.Down(ValidatePitch(leftStick.y, offset))
 		default:
 			drone.Up(0)
 		}
 
 		switch {
-		case leftStick.x > 20:
+		case leftStick.x > max:
 			drone.Clockwise(ValidatePitch(leftStick.x, offset))
-		case leftStick.x < -20:
+		case leftStick.x < min:
 			drone.CounterClockwise(ValidatePitch(leftStick.x, offset))
 		default:
 			drone.Clockwise(0)

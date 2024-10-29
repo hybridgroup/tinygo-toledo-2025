@@ -49,7 +49,7 @@ func main() {
 	if err != nil {
 		println(err)
 	}
-	time.Sleep(3 * time.Second)
+	time.Sleep(10 * time.Second)
 
 	println("land")
 	err = drone.Land()
