@@ -6,7 +6,7 @@ The is the repository for the hardware hack session at Gophercon SG 2025.
 
 https://2025.gophercon.sg/
 
-### Please return all other equipment when you are finished for the next person. Thank you!
+### Please return all equipment when you are finished for the next person. Thank you!
 
 ## Installation
 
@@ -48,20 +48,6 @@ Post robot videos using hashtag #gopherconsg
 
 Ready to roll? Go to https://github.com/hybridgroup/tinygo-mip.
 
-### WowWee CHiP robot dog
-
-![WowWee CHiP](./images/chip.jpg)
-
-We also brought our WowWee CHiP the robot dog that you control using Bluetooth.
-
-This is a challenge activity: help us complete the implementation for the complete API.
-
-Post robot videos using hashtag #gopherconsg
-
-Ready to do some new tricks? Go to https://github.com/hybridgroup/tinygo-chip.
-
-> :info: take a look at the [./tools](./tools) directory for instructions on how to do bluetooth discovery
-
 ### TinyGo Open LED Race
 
 ![TinyGo OpenLEDRace](./images/ledrace-input2.gif)
@@ -72,4 +58,4 @@ For more information, please go to https://github.com/conejoninja/ledrace
 
 ## License
 
-Copyright (c) 2015-2024 The Hybrid Group and friends. Licensed under the MIT license.
+Copyright (c) 2015-2025 The Hybrid Group and friends. Licensed under the MIT license.

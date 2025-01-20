@@ -5,8 +5,8 @@
 First use git to clone this repo to your local machine:
 
 ```
-git clone https://github.com/hybridgroup/gopherconau-2024.git
-cd gopherconau-2024
+git clone https://github.com/hybridgroup/gopherconsg-2025.git
+cd gopherconau-2025
 ```
 
 ## Install Go 1.23
@@ -19,6 +19,6 @@ Now you are ready to install TinyGo.
 
 ## Install TinyGo
 
-You will need to install TinyGo 0.34.0 in order to do today's activities.
+You will need to install TinyGo 0.35+ in order to do today's activities.
 
 https://tinygo.org/getting-started/install/
