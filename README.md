@@ -30,7 +30,7 @@ Ready to try this out? Go to [./sensor/arduino/](./sensor/arduino/) to get start
 
 We have Parrot Minidrones you can fly with Go code to control them using their built-in Bluetooth API.
 
-Post in-flight videos using hashtag #gopherconsg
+Post in-flight videos using hashtag #tinyGoToledo
 
 Ready for takeoff? Go to [./drone/minidrone/](./drone/minidrone/).
 

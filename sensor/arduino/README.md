@@ -196,9 +196,9 @@ Now we will add a SSD1306 OLED display to show the state of the buttons and dial
 
 We have 2 TinyGo packages to make it easier to use small displays such as the SSD1306 in the kit. 
 
-The TinyFont package renders fonts to any of the supported displays in the TinyGo drivers repo. 
+The [TinyFont](https://github.com/tinygo-org/tinyfont/) package renders fonts to any of the supported displays in the TinyGo drivers repo. 
 
-The TinyDraw package has a number of drawing primitives like circles, lines, and triangles that can be used with any of the supported displays.
+The [TinyDraw](https://github.com/tinygo-org/tinydraw) package has a number of drawing primitives like circles, lines, and triangles that can be used with any of the supported displays.
 
 Run the code.
 

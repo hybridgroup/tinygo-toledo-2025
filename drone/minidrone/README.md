@@ -130,6 +130,3 @@ Control the Minidrone with your keyboard!
 - t, g, f, h control front flip, back flip, left flip, right flip
 - r stop all movement on the minidrone to allow it to simply hover
 
-## What now?
-
-Try adding some new features to the https://github.com/hybridgroup/tinygo-mip repo. There are a number of interesting unimplemented API functions to explore!
