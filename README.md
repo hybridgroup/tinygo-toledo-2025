@@ -1,10 +1,6 @@
-# Gophercon Sg 2025 Hardware Hack Session
+# TinyGo Toledo 2025 Hardware Hack Session
 
-![Gophercon SG logo](./images/gophercon-sg-2025.png)
-
-The is the repository for the hardware hack session at Gophercon SG 2025.
-
-https://2025.gophercon.sg/
+The is the repository for the hardware hack session.
 
 ### Please return all equipment when you are finished for the next person. Thank you!
 
