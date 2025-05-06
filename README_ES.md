@@ -57,6 +57,16 @@ Publica vídeos de robots con el hashtag #tinyGoToledo
 
 ¿Preparado para rodar? Visita https://github.com/hybridgroup/tinygo-mip.
 
+
+### Gopherino
+
+
+Gopherino es un robot basado en la [plataforma Maqueen v4.1](https://wiki.dfrobot.com/micro_Maqueen_for_micro_bit_SKU_ROB0148-EN#target_6) y controlador por un [BBC Microbit (v1 o v2)](https://wiki.dfrobot.com/micro_Maqueen_for_micro_bit_SKU_ROB0148-EN#target_6). Tiene diversos sensores incluidos, LEDs RGB y dos motores para echar a rodar. Así como varios puertos de expansión distribuidos por todo el cuerpo.
+
+![Gopherino](https://raw.githubusercontent.com/conejoninja/gopherino/main/gopherino.jpeg)
+
+Para más información, visita https://github.com/conejoninja/gopherino/blob/main/README_ES.md
+
 ### TinyGo Open LED Race
 
 ![TinyGo OpenLEDRace](./images/ledrace-input2.gif)
