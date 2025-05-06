@@ -14,13 +14,13 @@ Por favor, lee nuestras [instrucciones de instalación aquí](./INSTALL.md).
 ### Taller Microbit v2 - TinyGo
 
 
-![Microbit v2](https://raw.githubusercontent.com/conejoninja/microbit_workshop/main/tutorial/assets/bliking_led.gif)
+![Microbit v2](https://raw.githubusercontent.com/hybridgroup/microbit_workshop/main/tutorial/assets/bliking_led.gif)
 
 Descubre cómo **TinyGo** puede hacer más fácil el desarrollo para embebidos. [TinyGo](https://tinygo.org/) es ideal para el desarrollo embebido gracias a su sintaxis sencilla y compatibilidad con microcontroladores populares. Ofrece compilación rápida, tamaño reducido de binarios y herramientas intuitivas, facilitando la creación de aplicaciones eficientes incluso en dispositivos con recursos limitados.
 
 Publica vídeos de tu avance con el hashtag #tinyGoToledo
 
-¿Preparado para empezar? Visita https://github.com/conejoninja/microbit_workshop
+¿Preparado para empezar? Visita https://github.com/hybridgroup/microbit_workshop
 
 
 ### Sensores IoT - Arduino Nano RP2040
